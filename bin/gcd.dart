@@ -2,7 +2,7 @@ import 'dart:io';
 
 void gcd()
 {
-  int i;int gcd=1;
+  int i; int gcd=1;
   print("enter two numbers");
   int a=int.parse(stdin.readLineSync()!);
   int b=int.parse(stdin.readLineSync()!);

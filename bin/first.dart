@@ -71,17 +71,32 @@ void main( ) {
 // House obj1=House(01,"h01",43256);
 // House obj2=House(02,"h02",67435);
 // House obj3=House(03,"h03",89968);
-Car c1=Car();
-c1.make="bmw";
-c1.model="876r";
-c1.year=2023;
-c1.displayinfo();
-print("car door are=${c1.numdoor}");
-Truck t1=Truck();
-t1.make="benz";
-t1.model="5436y";
-t1.year=2019;
-t1.displayinfo();
-print("truck bedlength is =${t1.bedlength}");
+// Car c1=Car();
+// c1.make="bmw";
+// c1.model="876r";
+// c1.year=2023;
+// c1.displayinfo();
+// print("car door are=${c1.numdoor}");
+// Truck t1=Truck();
+// t1.make="benz";
+// t1.model="5436y";
+// t1.year=2019;
+// t1.displayinfo();
+// print("truck bedlength is =${t1.bedlength}");
+Laptop obj1=Laptop();
+Laptop obj2=Laptop();
+obj1.id=001;
+obj1.name="asus";
+obj1.ram="8 gb";
+obj2.id=002;
+obj2.name="hp";
+obj2.ram="16 gb";
+print(obj1.id);
+print(obj1.name);
+print(obj1.ram);
+print(obj2.id);
+print(obj2.name);
+print(obj2.ram);
+
 }
 

@@ -36,15 +36,22 @@
 
 
 
-import 'dart:math';
+// import 'dart:math';
 
-import 'classvehicle.dart';
-import 'house.dart';
-import 'inheritence.dart';
-import 'laptop.dart';
-import 'rectangle.dart';
+// import 'classvehicle.dart';
+// import 'house.dart';
+// import 'inheritence.dart';
+// import 'laptop.dart';
+// import 'rectangle.dart';
+// import 'sum.dart';
 
 // import 'person.dart';
+
+import 'dart:math';
+
+import 'abstract.dart';
+import 'bank.dart';
+import 'encapsulation.dart';
 
 void main( ) {
 //   print("enter you age");
@@ -83,20 +90,33 @@ void main( ) {
 // t1.year=2019;
 // t1.displayinfo();
 // print("truck bedlength is =${t1.bedlength}");
-Laptop obj1=Laptop();
-Laptop obj2=Laptop();
-obj1.id=001;
-obj1.name="asus";
-obj1.ram="8 gb";
-obj2.id=002;
-obj2.name="hp";
-obj2.ram="16 gb";
-print(obj1.id);
-print(obj1.name);
-print(obj1.ram);
-print(obj2.id);
-print(obj2.name);
-print(obj2.ram);
+// Laptop obj1=Laptop();
+// Laptop obj2=Laptop();
+// obj1.id=001;
+// obj1.name="asus";
+// obj1.ram="8 gb";
+// obj2.id=002;
+// obj2.name="hp";
+// obj2.ram="16 gb";
+// print(obj1.id);
+// print(obj1.name);
+// print(obj1.ram);
+// print(obj2.id);
+// print(obj2.name);
+// print(obj2.ram);
+// sum();
+// Student s=Student();
+// s.setvalue("jubila", 23, 14);
+//  s.details();
+// Bank b=Bank();
+// b.bankaccount("5437ut25", "jubila");
+// b.deposit(0);
+// b.withdraw(200);
+// b.getbalance();
+Rectanglee r=Rectanglee(5, 6);
+r.calculatearea();
+Circle c=Circle(4);
+c.calculatearea();
 
 }
 

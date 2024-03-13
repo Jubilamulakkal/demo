@@ -3,7 +3,7 @@ import 'dart:io';
 
 
   // print("hello");
-  // print("enter two numbers");
+//   print("enter two numbers");
 //   double num1=double.parse(stdin.readLineSync()!);
 //   double num2=double.parse(stdin.readLineSync()!);
 // double reminder=num1%num2;
